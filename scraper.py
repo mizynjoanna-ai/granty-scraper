@@ -33,7 +33,7 @@ def skrapuj_ngo(grant_id_start):
         print(f"Błąd NGO: {e}")
     return wyniki
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("Uruchamianie zbierania danych...")
     wszystkie_granty = []
     
