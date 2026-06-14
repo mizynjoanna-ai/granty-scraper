@@ -19,14 +19,13 @@ def pobierz_ngo(g_id):
             for art in soup.find_all('div', class_='views-row'):
                 t_elem = art.find('h3') or art.find('a', class_='title')
                 if t_elem:
-                    # Wyciąganie linku do konkretnego artykułu
                     link_elem = t_elem.find('a')
                     link_url = "https://fundusze.ngo.pl" + link_elem['href'] if link_elem and link_elem.has_attr('href') else "https://fundusze.ngo.pl/konkursy"
                     
                     wyniki.append({
                         "id": g_id, "title": t_elem.text.strip(), "organization": "Portal NGO.pl",
                         "amount": "Dotacje krajowe", "deadline": "Sprawdź na NGO.pl", "category": "Krajowe NGO",
-                        "url": link_url # <--- DODANY LINK
+                        "url": link_url
                     })
                     g_id += 1
     except Exception as e: print(f"NGO.pl błąd: {e}")
@@ -48,7 +47,7 @@ def generuj_baze_wyszukiwania(g_id):
         wyniki.append({
             "id": g_id, "title": p["tytul"], "organization": p["nazwa"],
             "amount": "Zależna od wniosku", "deadline": "Bieżący 2026", "category": p["kat"],
-            "url": p["url"] # <--- DODANY LINK
+            "url": p["url"]
         })
         g_id += 1
     return wyniki, g_id
@@ -112,4 +111,53 @@ def pobierz_dfop(g_id):
             "organization": "DFOP", "amount": "Wsparcie doradcze", "deadline": "Bieżący", "category": "Wsparcie NGO",
             "url": "https://dfop.org.pl"
         })
-        g_id +=
+        g_id += 1
+    except Exception as e: print(f"Błąd DFOP: {e}")
+    return wyniki, g_id
+
+def pobierz_jelenia_gora_ngo(g_id):
+    wyniki = []
+    try:
+        wyniki.append({
+            "id": g_id, "title": "Miejski program współpracy z NGO - Dotacje celowe Jeleniej Góry",
+            "organization": "UM Jelenia Góra", "amount": "Finansowanie miejskie", "deadline": "Zobacz BIP NGO", "category": "Lokalne JST",
+            "url": "https://www.jeleniagora.pl"
+        })
+        g_id += 1
+    except Exception as e: print(f"Błąd UM JG: {e}")
+    return wyniki, g_id
+
+def pobierz_powiat_karkonoski(g_id):
+    wyniki = []
+    try:
+        wyniki.append({
+            "id": g_id, "title": "Konkursy dotacyjne Powiatu Karkonoskiego na zadania publiczne",
+            "organization": "Powiat Karkonoski", "amount": "Budżet powiatowy", "deadline": "Ogłoszenia okresowe", "category": "Powiatowe",
+            "url": "https://powiatkarkonoski.pl"
+        })
+        g_id += 1   # <--- NAPRAWIONE: Tutaj brakowało jedynki!
+    except Exception as e: print(f"Błąd Powiat: {e}")
+    return wyniki, g_id
+
+
+# --- 3. PROCES ŁĄCZENIA ---
+
+print("🚀 Skrapowanie z obsługą linków URL...")
+wszystkie_granty = []
+aktualne_id = 1
+
+funkcje_skrapujace = [
+    pobierz_ngo, generuj_baze_wyszukiwania, pobierz_dolnoslaskie_male_granty,
+    pobierz_lgd_ducha_gor, pobierz_fed_dolny_slask, pobierz_umwd,
+    pobierz_dfop, pobierz_jelenia_gora_ngo, pobierz_powiat_karkonoski
+]
+
+for funkcja in funkcje_skrapujace:
+    dane, aktualne_id = funkcja(aktualne_id)
+    wszystkie_granty.extend(dane)
+    time.sleep(0.5)
+
+with open('granty.json', 'w', encoding='utf-8') as f:
+    json.dump(wszystkie_granty, f, ensure_ascii=False, indent=4)
+
+print(f"✅ Sukces! Zapisano {len(wszystkie_granty)} rekordów z linkami URL.")
