@@ -1,74 +1,128 @@
 [
     {
         "id": 1,
-        "title": "Stradomia Wierzchnia w gminie Syców zdobyła tytuł Najpiękniejszej Wsi Dolnego Śląska 2026 roku. Poznaliśmy wyniki XVIII edycji konkursu Piękna Wieś Dolnośląska, wyróżniającego najbardziej aktywne,...",
-        "organization": "UMWD Wrocław",
-        "amount": "Środki wojewódzkie",
-        "deadline": "Patrz załączniki",
-        "category": "Wojewódzkie",
-        "url": "https://umwd.dolnyslask.pl/aktualnosc/single-view/artykul/stradomia-wierzchnia-najpiekniejsza-wsia-dolnego-slaska-1/"
+        "title": "Wsparcie cyfryzacji i innowacji w przedsiębiorstwach i NGO",
+        "organization": "Grantowo.pl",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Fundusze UE",
+        "url": "https://grantowo.pl"
     },
     {
         "id": 2,
-        "title": "Znamy laureatów konkursu „Z Dolnego Śląska w...",
-        "organization": "UMWD Wrocław",
-        "amount": "Środki wojewódzkie",
-        "deadline": "Patrz załączniki",
-        "category": "Wojewódzkie",
-        "url": "https://umwd.dolnyslask.pl/urzad/aktualnosci/single-view/artykul/znamy-laureatow-konkursu-z-dolnego-slaska-w-swiat/"
+        "title": "Rozwój infrastruktury lokalnej i granty modernizacyjne",
+        "organization": "Grantona.pl",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Dla JST",
+        "url": "https://grantona.pl"
     },
     {
         "id": 3,
-        "title": "Konkurs architektoniczno-urbanistyczny",
-        "organization": "UMWD Wrocław",
-        "amount": "Środki wojewódzkie",
-        "deadline": "Patrz załączniki",
-        "category": "Wojewódzkie",
-        "url": "https://inwdo.pl/konkurs-architektoniczno-urbanistyczny/"
+        "title": "Automatyczne dopasowanie funduszy norweskich - Nabór 2026",
+        "organization": "GrantMatcher.pl",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "AI Matching",
+        "url": "https://grantmatcher.pl"
     },
     {
         "id": 4,
-        "title": "https://inwdo.pl/konkurs-architektoniczno-urbanistyczny/",
-        "organization": "UMWD Wrocław",
-        "amount": "Środki wojewódzkie",
-        "deadline": "Patrz załączniki",
-        "category": "Wojewódzkie",
-        "url": "https://inwdo.pl/konkurs-architektoniczno-urbanistyczny/"
+        "title": "Mikrogranty na aktywizację społeczności w małych miastach",
+        "organization": "Grancik.pl",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Inicjatywy",
+        "url": "https://grancik.pl"
     },
     {
         "id": 5,
-        "title": "Złóż wniosek w generatorze",
-        "organization": "Dolnośląskie Małe Granty",
-        "amount": "do 5 000 PLN",
-        "deadline": "Nabór 2026",
-        "category": "Mikrogranty",
-        "url": "https://www.dolnoslaskiemalegranty.pl/admin"
+        "title": "Program operacyjny Wiedza Edukacja Rozwój - wnioski",
+        "organization": "Grantbot.pl",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Edukacja",
+        "url": "https://grantbot.pl"
     },
     {
         "id": 6,
-        "title": "Wsparcie cyfryzacji i innowacji w przedsiębiorstwach i NGO",
-        "organization": "Grantowo.pl",
-        "amount": "Zależna od wniosku",
-        "deadline": "Bieżący 2026",
-        "category": "Fundusze UE",
-        "url": "https://grantowo.pl/wyszukiwarka-dotacji/"
+        "title": "Konkurs na realizację zadań publicznych w sferze kultury i sportu",
+        "organization": "Witkac.pl",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Samorządy",
+        "url": "https://www.witkac.pl/public/#/konkursy"
     },
     {
         "id": 7,
-        "title": "Rozwój infrastruktury lokalnej i granty modernizacyjne",
-        "organization": "Grantona.pl",
-        "amount": "Zależna od wniosku",
-        "deadline": "Bieżący 2026",
-        "category": "Dla JST",
-        "url": "https://grantona.pl/konkursy/"
+        "title": "Dofinansowanie działalności podmiotów ekonomii solidarnej",
+        "organization": "Ekonomiaspoleczna.gov.pl",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Gov.pl",
+        "url": "https://www.ekonomiaspoleczna.gov.pl"
     },
     {
         "id": 8,
-        "title": "Konkurs na realizację zadań publicznych w sferze kultury i sportu",
-        "organization": "Witkac.pl",
-        "amount": "Zależna od wniosku",
-        "deadline": "Bieżący 2026",
-        "category": "Samorządy",
-        "url": "https://www.witkac.pl/public/#/konkursy"
+        "title": "Dolnośląskie Małe Granty - Mikrodotacje na projekty lokalne",
+        "organization": "Dolnośląskie Małe Granty",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Mikrogranty",
+        "url": "https://www.dolnoslaskiemalegranty.pl"
+    },
+    {
+        "id": 9,
+        "title": "Wsparcie rozwoju lokalnego w ramach strategii LGD - Karkonosze",
+        "organization": "LGD Partnerstwo Ducha Gór",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Rozwój Lokalny",
+        "url": "https://www.duchagor.pl/pl/artykuly/nabory-wnioskow-i-konkursy"
+    },
+    {
+        "id": 10,
+        "title": "Fundusze Europejskie dla Dolnego Śląska 2021–2027 - EFS+",
+        "organization": "FE dla Dolnego Śląska",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Fundusze UE",
+        "url": "https://www.funduszeuedolnyslask.pl/nabory"
+    },
+    {
+        "id": 11,
+        "title": "Otwarty konkurs ofert na realizację zadań publicznych Województwa",
+        "organization": "UMWD Wrocław",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Wojewódzkie",
+        "url": "https://umwd.dolnyslask.pl/organizacje-pozarzadowe/otwarte-konkursy-ofert/"
+    },
+    {
+        "id": 12,
+        "title": "Dolnośląski Festiwal i Granty DFOP - Wzmocnienie potencjału NGO",
+        "organization": "DFOP",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Wsparcie NGO",
+        "url": "https://dfop.org.pl"
+    },
+    {
+        "id": 13,
+        "title": "Miejski program współpracy z NGO - Dotacje celowe Jeleniej Góry",
+        "organization": "UM Jelenia Góra",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Lokalne JST",
+        "url": "https://bip.jeleniagora.pl/menu/216/wspolpraca-z-ngo"
+    },
+    {
+        "id": 14,
+        "title": "Konkursy dotacyjne Powiatu Karkonoskiego na zadania publiczne",
+        "organization": "Powiat Karkonoski",
+        "amount": "Zgodnie z ogłoszeniem",
+        "deadline": "Bieżący rok",
+        "category": "Powiatowe",
+        "url": "https://powiatkarkonoski.pl/organizacje-pozarzadowe"
     }
 ]
