@@ -5,7 +5,8 @@
         "organization": "Grantowo.pl",
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
-        "category": "Fundusze UE"
+        "category": "Fundusze UE",
+        "url": "https://grantowo.pl"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "organization": "Grantona.pl",
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
-        "category": "Dla JST"
+        "category": "Dla JST",
+        "url": "https://grantona.pl"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "organization": "GrantMatcher.pl",
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
-        "category": "AI Matching"
+        "category": "AI Matching",
+        "url": "https://grantmatcher.pl"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "organization": "Grancik.pl",
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
-        "category": "Inicjatywy"
+        "category": "Inicjatywy",
+        "url": "https://grancik.pl"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "organization": "Grantbot.pl",
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
-        "category": "Edukacja"
+        "category": "Edukacja",
+        "url": "https://grantbot.pl"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "organization": "Witkac.pl",
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
-        "category": "Samorządy"
+        "category": "Samorządy",
+        "url": "https://www.witkac.pl"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "organization": "Ekonomiaspoleczna.gov.pl",
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
-        "category": "Gov.pl"
+        "category": "Gov.pl",
+        "url": "https://www.ekonomiaspoleczna.gov.pl"
     },
     {
         "id": 8,
@@ -61,62 +68,70 @@
         "organization": "Federacja Mazowia",
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
-        "category": "Regionalne"
+        "category": "Regionalne",
+        "url": "https://mazowia.pl"
     },
     {
         "id": 9,
-        "title": "Dolnośląskie Małe Granty - Mikrodotacje na projekty lokalne i sąsiedzkie",
+        "title": "Dolnośląskie Małe Granty - Mikrodotacje na projekty lokalne",
         "organization": "Dolnośląskie Małe Granty",
         "amount": "do 5 000 PLN",
         "deadline": "Nabór ciągły 2026",
-        "category": "Mikrogranty"
+        "category": "Mikrogranty",
+        "url": "https://www.dolnoslaskiemalegranty.pl"
     },
     {
         "id": 10,
-        "title": "Wsparcie rozwoju lokalnego w ramach strategii LGD - Karkonosze i okolice",
+        "title": "Wsparcie rozwoju lokalnego w ramach strategii LGD - Karkonosze",
         "organization": "LGD Partnerstwo Ducha Gór",
         "amount": "Zgodnie z LSR",
         "deadline": "Sprawdź harmonogram",
-        "category": "Rozwój Lokalny"
+        "category": "Rozwój Lokalny",
+        "url": "https://www.duchagor.pl"
     },
     {
         "id": 11,
-        "title": "Fundusze Europejskie dla Dolnego Śląska 2021–2027 - Dotacje na transformację i EFS+",
+        "title": "Fundusze Europejskie dla Dolnego Śląska 2021–2027 - EFS+",
         "organization": "FE dla Dolnego Śląska",
         "amount": "Wysokie dofinansowanie",
         "deadline": "Konkursy 2026",
-        "category": "Fundusze UE"
+        "category": "Fundusze UE",
+        "url": "https://www.funduszeuedolnyslask.pl"
     },
     {
         "id": 12,
-        "title": "Otwarty konkurs ofert na realizację zadań publicznych Województwa Dolnośląskiego",
+        "title": "Otwarty konkurs ofert na realizację zadań publicznych Województwa",
         "organization": "UMWD Wrocław",
         "amount": "Wg specyfikacji",
         "deadline": "Patrz ogłoszenia",
-        "category": "Wojewódzkie"
+        "category": "Wojewódzkie",
+        "url": "https://umwd.dolnyslask.pl"
     },
     {
         "id": 13,
-        "title": "Dolnośląski Festiwal i Granty DFOP - Wzmocnienie potencjału trzeciego sektora",
+        "title": "Dolnośląski Festiwal i Granty DFOP - Wzmocnienie potencjału NGO",
         "organization": "DFOP",
-        "amount": "Wsparcie doradcze/finansowe",
+        "amount": "Wsparcie doradcze",
         "deadline": "Bieżący",
-        "category": "Wsparcie NGO"
+        "category": "Wsparcie NGO",
+        "url": "https://dfop.org.pl"
     },
     {
         "id": 14,
-        "title": "Miejski program współpracy z NGO - Dotacje celowe Miasta Jelenia Góra",
+        "title": "Miejski program współpracy z NGO - Dotacje celowe Jeleniej Góry",
         "organization": "UM Jelenia Góra",
         "amount": "Finansowanie miejskie",
         "deadline": "Zobacz BIP NGO",
-        "category": "Lokalne JST"
+        "category": "Lokalne JST",
+        "url": "https://www.jeleniagora.pl"
     },
     {
         "id": 15,
-        "title": "Konkursy dotacyjne Powiatu Karkonoskiego na zadania z zakresu pożytku publicznego",
+        "title": "Konkursy dotacyjne Powiatu Karkonoskiego na zadania publiczne",
         "organization": "Powiat Karkonoski",
         "amount": "Budżet powiatowy",
         "deadline": "Ogłoszenia okresowe",
-        "category": "Powiatowe"
+        "category": "Powiatowe",
+        "url": "https://powiatkarkonoski.pl"
     }
 ]
