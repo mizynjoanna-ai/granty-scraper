@@ -51,7 +51,7 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "Samorządy",
-        "url": "https://www.witkac.pl"
+        "url": "https://www.witkac.pl/public/#/konkursy"
     },
     {
         "id": 7,
@@ -105,7 +105,7 @@
         "amount": "Wg specyfikacji",
         "deadline": "Patrz ogłoszenia",
         "category": "Wojewódzkie",
-        "url": "https://umwd.dolnyslask.pl"
+        "url": "https://bip.dolnyslask.pl/m,1809,konkursy.html"
     },
     {
         "id": 13,
@@ -123,7 +123,7 @@
         "amount": "Finansowanie miejskie",
         "deadline": "Zobacz BIP NGO",
         "category": "Lokalne JST",
-        "url": "https://www.jeleniagora.pl"
+        "url": "https://bip.jeleniagora.pl"
     },
     {
         "id": 15,
