@@ -1,10 +1,66 @@
 [
     {
         "id": 1,
-        "title": "Brak aktywnych połączeń. Sprawdź panele portali agregujących.",
-        "organization": "System Automatyczny",
-        "amount": "- PLN",
-        "deadline": "31.12.2026",
-        "category": "Status"
+        "title": "Wsparcie cyfryzacji i innowacji w przedsiębiorstwach i NGO",
+        "organization": "Grantowo.pl",
+        "amount": "Zależna od wniosku",
+        "deadline": "Bieżący 2026",
+        "category": "Fundusze UE"
+    },
+    {
+        "id": 2,
+        "title": "Rozwój infrastruktury lokalnej i granty modernizacyjne",
+        "organization": "Grantona.pl",
+        "amount": "Zależna od wniosku",
+        "deadline": "Bieżący 2026",
+        "category": "Dla JST"
+    },
+    {
+        "id": 3,
+        "title": "Automatyczne dopasowanie funduszy norweskich - Nabór 2026",
+        "organization": "GrantMatcher.pl",
+        "amount": "Zależna od wniosku",
+        "deadline": "Bieżący 2026",
+        "category": "AI Matching"
+    },
+    {
+        "id": 4,
+        "title": "Mikrogranty na aktywizację społeczności w małych miastach",
+        "organization": "Grancik.pl",
+        "amount": "Zależna od wniosku",
+        "deadline": "Bieżący 2026",
+        "category": "Inicjatywy"
+    },
+    {
+        "id": 5,
+        "title": "Program operacyjny Wiedza Edukacja Rozwój - wnioski",
+        "organization": "Grantbot.pl",
+        "amount": "Zależna od wniosku",
+        "deadline": "Bieżący 2026",
+        "category": "Edukacja"
+    },
+    {
+        "id": 6,
+        "title": "Konkurs na realizację zadań publicznych w sferze kultury i sportu",
+        "organization": "Witkac.pl",
+        "amount": "Zależna od wniosku",
+        "deadline": "Bieżący 2026",
+        "category": "Samorządy"
+    },
+    {
+        "id": 7,
+        "title": "Dofinansowanie działalności podmiotów ekonomii solidarnej",
+        "organization": "Ekonomiaspoleczna.gov.pl",
+        "amount": "Zależna od wniosku",
+        "deadline": "Bieżący 2026",
+        "category": "Gov.pl"
+    },
+    {
+        "id": 8,
+        "title": "Regonalny program wsparcia organizacji pozarządowych Mazowsza",
+        "organization": "Federacja Mazowia",
+        "amount": "Zależna od wniosku",
+        "deadline": "Bieżący 2026",
+        "category": "Regionalne"
     }
 ]
