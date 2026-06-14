@@ -62,5 +62,61 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "Regionalne"
+    },
+    {
+        "id": 9,
+        "title": "Dolnośląskie Małe Granty - Mikrodotacje na projekty lokalne i sąsiedzkie",
+        "organization": "Dolnośląskie Małe Granty",
+        "amount": "do 5 000 PLN",
+        "deadline": "Nabór ciągły 2026",
+        "category": "Mikrogranty"
+    },
+    {
+        "id": 10,
+        "title": "Wsparcie rozwoju lokalnego w ramach strategii LGD - Karkonosze i okolice",
+        "organization": "LGD Partnerstwo Ducha Gór",
+        "amount": "Zgodnie z LSR",
+        "deadline": "Sprawdź harmonogram",
+        "category": "Rozwój Lokalny"
+    },
+    {
+        "id": 11,
+        "title": "Fundusze Europejskie dla Dolnego Śląska 2021–2027 - Dotacje na transformację i EFS+",
+        "organization": "FE dla Dolnego Śląska",
+        "amount": "Wysokie dofinansowanie",
+        "deadline": "Konkursy 2026",
+        "category": "Fundusze UE"
+    },
+    {
+        "id": 12,
+        "title": "Otwarty konkurs ofert na realizację zadań publicznych Województwa Dolnośląskiego",
+        "organization": "UMWD Wrocław",
+        "amount": "Wg specyfikacji",
+        "deadline": "Patrz ogłoszenia",
+        "category": "Wojewódzkie"
+    },
+    {
+        "id": 13,
+        "title": "Dolnośląski Festiwal i Granty DFOP - Wzmocnienie potencjału trzeciego sektora",
+        "organization": "DFOP",
+        "amount": "Wsparcie doradcze/finansowe",
+        "deadline": "Bieżący",
+        "category": "Wsparcie NGO"
+    },
+    {
+        "id": 14,
+        "title": "Miejski program współpracy z NGO - Dotacje celowe Miasta Jelenia Góra",
+        "organization": "UM Jelenia Góra",
+        "amount": "Finansowanie miejskie",
+        "deadline": "Zobacz BIP NGO",
+        "category": "Lokalne JST"
+    },
+    {
+        "id": 15,
+        "title": "Konkursy dotacyjne Powiatu Karkonoskiego na zadania z zakresu pożytku publicznego",
+        "organization": "Powiat Karkonoski",
+        "amount": "Budżet powiatowy",
+        "deadline": "Ogłoszenia okresowe",
+        "category": "Powiatowe"
     }
 ]
