@@ -33,26 +33,26 @@ def skrapuj_ngo(grant_id_start):
         print(f"Błąd NGO: {e}")
     return wyniki
 
-if __name__ == "__main__":
-    print("Uruchamianie zbierania danych...")
-    wszystkie_granty = []
+# GŁÓWNY PROCES URUCHAMIANY BEZPOŚREDNIO (Bez instrukcji IF)
+print("Uruchamianie zbierania danych...")
+wszystkie_granty = []
+
+# Pobieramy dane bezpieczną metodą
+wszystkie_granty.extend(skrapuj_ngo(1))
+
+# Baza zapasowa na start, która gwarantuje poprawne ładowanie w aplikacji
+if not wszystkie_granty:
+    wszystkie_granty = [
+        {
+            "id": 1,
+            "title": "Aktywne dotacje dla rozwoju sektora NGO",
+            "organization": "System Automatyczny",
+            "amount": "50 000 PLN",
+            "deadline": "31.12.2026",
+            "category": "Inicjatywy Lokalne"
+        }
+    ]
     
-    # Pobieramy dane bezpieczną metodą
-    wszystkie_granty.extend(skrapuj_ngo(1))
-    
-    # Baza zapasowa na start, która gwarantuje poprawne ładowanie w aplikacji
-    if not wszystkie_granty:
-        wszystkie_granty = [
-            {
-                "id": 1,
-                "title": "Aktywne dotacje dla rozwoju sektora NGO",
-                "organization": "System Automatyczny",
-                "amount": "50 000 PLN",
-                "deadline": "31.12.2026",
-                "category": "Inicjatywy Lokalne"
-            }
-        ]
-        
-    with open('granty.json', 'w', encoding='utf-8') as f:
-        json.dump(wszystkie_granty, f, ensure_ascii=False, indent=4)
-    print("Pomyślnie wygenerowano plik granty.json!")
+with open('granty.json', 'w', encoding='utf-8') as f:
+    json.dump(wszystkie_granty, f, ensure_ascii=False, indent=4)
+print("Pomyślnie wygenerowano plik granty.json!")
