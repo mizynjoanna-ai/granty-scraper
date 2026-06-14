@@ -6,7 +6,7 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "Fundusze UE",
-        "url": "https://grantowo.pl"
+        "url": "https://grantowo.pl/wyszukiwarka-dotacji/"
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "Dla JST",
-        "url": "https://grantona.pl"
+        "url": "https://grantona.pl/konkursy/"
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "AI Matching",
-        "url": "https://grantmatcher.pl"
+        "url": "https://grantmatcher.pl/wyszukiwarka/"
     },
     {
         "id": 4,
@@ -33,7 +33,7 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "Inicjatywy",
-        "url": "https://grancik.pl"
+        "url": "https://grancik.pl/category/aktualne-nabory/"
     },
     {
         "id": 5,
@@ -42,7 +42,7 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "Edukacja",
-        "url": "https://grantbot.pl"
+        "url": "https://grantbot.pl/baza-grantow/"
     },
     {
         "id": 6,
@@ -60,7 +60,7 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "Gov.pl",
-        "url": "https://www.ekonomiaspoleczna.gov.pl"
+        "url": "https://www.ekonomiaspoleczna.gov.pl/Pozyskiwanie,funduszy,w,ekonomii,spolecznej,4196.html"
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "amount": "Zależna od wniosku",
         "deadline": "Bieżący 2026",
         "category": "Regionalne",
-        "url": "https://mazowia.pl"
+        "url": "https://mazowia.pl/category/dotacje/"
     },
     {
         "id": 9,
@@ -78,7 +78,7 @@
         "amount": "do 5 000 PLN",
         "deadline": "Nabór ciągły 2026",
         "category": "Mikrogranty",
-        "url": "https://www.dolnoslaskiemalegranty.pl"
+        "url": "https://www.dolnoslaskiemalegranty.pl/zloz-wniosek/"
     },
     {
         "id": 10,
@@ -87,7 +87,7 @@
         "amount": "Zgodnie z LSR",
         "deadline": "Sprawdź harmonogram",
         "category": "Rozwój Lokalny",
-        "url": "https://www.duchagor.pl"
+        "url": "https://www.duchagor.pl/pl/artykuly/nabory-wnioskow-i-konkursy"
     },
     {
         "id": 11,
@@ -96,7 +96,7 @@
         "amount": "Wysokie dofinansowanie",
         "deadline": "Konkursy 2026",
         "category": "Fundusze UE",
-        "url": "https://www.funduszeuedolnyslask.pl"
+        "url": "https://www.funduszeuedolnyslask.pl/nabory"
     },
     {
         "id": 12,
@@ -105,7 +105,7 @@
         "amount": "Wg specyfikacji",
         "deadline": "Patrz ogłoszenia",
         "category": "Wojewódzkie",
-        "url": "https://bip.dolnyslask.pl/m,1809,konkursy.html"
+        "url": "https://umwd.dolnyslask.pl/organizacje-pozarzadowe/otwarte-konkursy-ofert/"
     },
     {
         "id": 13,
@@ -114,7 +114,7 @@
         "amount": "Wsparcie doradcze",
         "deadline": "Bieżący",
         "category": "Wsparcie NGO",
-        "url": "https://dfop.org.pl"
+        "url": "https://dfop.org.pl/category/aktualnosci/"
     },
     {
         "id": 14,
@@ -123,7 +123,7 @@
         "amount": "Finansowanie miejskie",
         "deadline": "Zobacz BIP NGO",
         "category": "Lokalne JST",
-        "url": "https://bip.jeleniagora.pl"
+        "url": "https://bip.jeleniagora.pl/menu/216/wspolpraca-z-ngo"
     },
     {
         "id": 15,
@@ -132,6 +132,6 @@
         "amount": "Budżet powiatowy",
         "deadline": "Ogłoszenia okresowe",
         "category": "Powiatowe",
-        "url": "https://powiatkarkonoski.pl"
+        "url": "https://powiatkarkonoski.pl/organizacje-pozarzadowe"
     }
 ]
